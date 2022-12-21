@@ -20,7 +20,7 @@ export const LatestPokemon = ({ pokemon }) => {
             </div>
             <div >
                 <div>
-                    <img className="resizePokemon" src={pokemon.imageUrl} />
+                    <img className="resizePokemon" src={pokemon.imageUrl} alt='' />
                 </div>
             </div>
         </div>

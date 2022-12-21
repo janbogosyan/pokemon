@@ -7,6 +7,7 @@ import { AboutSection } from './components/aboutSection/AboutSection';
 import { useState, useEffect } from "react";
 import * as firstService from './services/firstService';
 
+import { Routes, Route } from 'react-router-dom';
 
 
 function App() {
@@ -29,9 +30,13 @@ function App() {
             <Header />
 
 
-            <main>
-                <SliderSection />
-                <AboutSection pokemons={pokemons}/>
+            <main id='main-content'>
+                <Routes>
+
+                    <SliderSection />
+                    <AboutSection pokemons={pokemons} />
+                    
+                </Routes>
 
             </main>
         </>
