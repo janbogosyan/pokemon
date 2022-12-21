@@ -1,3 +1,5 @@
+
+
 export const SliderSection = () => {
     return (
         <section className=" slider_section position-relative">
@@ -20,7 +22,8 @@ export const SliderSection = () => {
                     >
                         <span className="sr-only">Next</span>
                     </a>
-                    <h1>
+                    <h1 className="ok">
+                        
                         Discovering <br />
                         SOME <br />
                         NEW POKEMONS
