@@ -1,12 +1,15 @@
+
+import { Link } from "react-router-dom"
+
 export const Header = () => {
     return (
         <header className="header_section">
             <div className="container-fluid">
                 <nav className="navbar navbar-expand-lg custom_nav-container ">
-                    <a className="navbar-brand" href="index.html">
+                    <Link className="navbar-brand" to="/">
                         <img src="images/logo.png" alt="" />
                         <span>POKEMONS</span>
-                    </a>
+                    </Link>
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -22,48 +25,48 @@ export const Header = () => {
                         <div className="d-flex mx-auto flex-column flex-lg-row align-items-center">
                             <ul className="navbar-nav  ">
                                 <li className="nav-item active">
-                                    <a className="nav-link" href="index.html">
+                                    <Link className="nav-link" to="/">
                                         Home <span className="sr-only">(current)</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="about.html">
+                                    <Link className="nav-link" to="/about">
                                         About{" "}
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="service.html">
+                                    <Link className="nav-link" to="/service">
                                         Services{" "}
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="portfolio.html">
+                                    <Link className="nav-link" to="/portfolio">
                                         {" "}
                                         Portfolio
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="news.html">
+                                    <Link className="nav-link" to="/news">
                                         {" "}
                                         news{" "}
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="contact.html">
+                                    <Link className="nav-link" to="/contact">
                                         Contact us
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="quote_btn-container  d-flex justify-content-center">
-                            <a href="*">
+                            <Link to="#">
                                 <img src="images/call.png" alt="" />
                                 CALL : +01 1234567890
-                            </a>
-                            <a href="*">
+                            </Link>
+                            <Link to="#">
                                 <span>@</span>
                                 demo@gmail.com
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </nav>
