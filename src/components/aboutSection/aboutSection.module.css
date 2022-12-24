@@ -8,3 +8,19 @@
     /* display: inline-block; */
     padding: 4em 4em;
 }
+.read-more{
+    color: red;
+    padding: 0.11em 0.11em;
+    /* background-color: red; */
+    /* padding-right: 100%; */
+}
+.custom_heading-container{
+    /* background-color:red; */
+    color: blueviolet;
+}
+.pokemon-details {
+    color: purple;
+    padding: 10% ;
+    padding-right: 50cm; 
+    
+}

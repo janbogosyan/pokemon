@@ -1,0 +1,17 @@
+.create-comment {
+    margin-top: 60px;
+    position: relative;
+    text-align: center;
+    width: 1700px;
+    height: 250px;
+    padding: 40px;
+    background: #aaff00;
+}
+
+.create-comment>label {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    line-height: normal;
+}

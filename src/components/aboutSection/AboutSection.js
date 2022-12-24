@@ -3,6 +3,8 @@ import styles from './aboutSection.module.css'    //aboutSection.module.css си
 
 import { LatestPokemon } from "./LatestPokemon";
 
+
+
 export const AboutSection = ({ pokemons }) => {
 
 
